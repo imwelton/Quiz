@@ -1,6 +1,6 @@
 # Quiz
 ## Linguagens
-  C#
+  - C#
 ## Ferramentas
   - Unity3D
   - Audacity
