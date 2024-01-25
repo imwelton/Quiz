@@ -285,8 +285,6 @@ MonoBehaviour:
         estaCorreta: 0
       - textoResposta: Paisagem
         estaCorreta: 1
-      - textoResposta: 
-        estaCorreta: 0
     - textoDaPergunta: Em qual dessas palavras ocorre um hiato?
       respostas:
       - textoResposta: "F\xF4sseis"
@@ -306,8 +304,6 @@ MonoBehaviour:
       - textoResposta: "Brom\xE9lia"
         estaCorreta: 0
       - textoResposta: "Her\xF3i"
-        estaCorreta: 0
-      - textoResposta: 
         estaCorreta: 0
     - textoDaPergunta: "Qual dessas palavras \xE9 proparox\xEDtona?"
       respostas:
@@ -386,9 +382,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 47b240718eb8c374d8313bbc39f9bf97, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0d2d946a17b520148ad5a85b304755f9, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.48
   m_Pitch: 1
   Loop: 1
   Mute: 0

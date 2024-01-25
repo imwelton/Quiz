@@ -126,8 +126,10 @@ public class GameController : MonoBehaviour
     }
 
     public void EndRound()
-    {
+    {  
         rodadaAtiva = false;
+        dataController.EnviarNovoHighScore(playerScore);
+        highScoreText.text = "High Score: " + dataController.GetHighScore().ToString();
         painelDePerguntas.SetActive(false);
         painelFimRodada.SetActive(true);
     }
